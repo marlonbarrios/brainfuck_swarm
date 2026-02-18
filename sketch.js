@@ -2106,21 +2106,33 @@ function drawStats() {
     textStyle(BOLD);
     text('BRAINFUCK SWARM', statsDisplay.x + 12, statsDisplay.y + 22);
     
-    // Sound indicator
+    // Sound indicator - more visible
     const soundY = statsDisplay.y + 22;
-    const soundX = statsDisplay.x + statsDisplay.w - 25;
-    fill(soundEnabled ? 60 : 180); // Darker when on, lighter when off
+    const soundX = statsDisplay.x + statsDisplay.w - 60;
+    
+    // Sound text label
+    fill(soundEnabled ? 30 : 150);
+    textSize(11);
+    textStyle(NORMAL);
+    textAlign(RIGHT);
+    text(soundEnabled ? 'SOUND: ON' : 'SOUND: OFF', soundX, soundY);
+    
+    // Sound icon
+    fill(soundEnabled ? 30 : 180); // Darker when on, lighter when off
     noStroke();
-    circle(soundX, soundY - 5, 6);
+    circle(soundX + 5, soundY - 5, 8);
+    
     // Sound waves when on
     if (soundEnabled) {
-        stroke(60);
-        strokeWeight(1);
+        stroke(30);
+        strokeWeight(1.5);
         noFill();
         const waveOffset = sin(time * 0.1) * 2;
-        arc(soundX + 4, soundY - 5, 8, 8, -PI/4, PI/4);
-        arc(soundX + 8, soundY - 5, 12, 12, -PI/3, PI/3);
+        arc(soundX + 9, soundY - 5, 10, 10, -PI/4, PI/4);
+        arc(soundX + 14, soundY - 5, 14, 14, -PI/3, PI/3);
     }
+    
+    textAlign(LEFT); // Reset text alignment
     textStyle(NORMAL);
     
     textSize(11);
