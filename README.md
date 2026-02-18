@@ -8,14 +8,11 @@ A generative art installation that visualizes the emergence of self-replicating 
 
 ## Screenshots
 
-![BrainFuck Swarm Visualization](screenshots/main.png)
+![BrainFuck Swarm Visualization](image.png)
 *The evolving ecosystem showing organisms with code-contingent behaviors*
 
-![Most Complex Organisms](screenshots/complex.png)
-*The two most complex organisms highlighted with pulsing rings*
-
-![Statistics Panel](screenshots/stats.png)
-*Real-time statistics tracking interactions, operations, and evolution*
+![Ecosystem Detail](image2.png)
+*Close-up view of organisms interacting, evolving, and displaying their Brainfuck code*
 
 ## What is Brainfuck?
 
