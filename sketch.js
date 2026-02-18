@@ -1962,6 +1962,7 @@ let ecosystem;
 let isPaused = false;
 let time = 0;
 let soundEnabled = false; // Sound toggle state (off by default)
+let statsVisible = true; // Stats panel visibility toggle
 let audioContext; // For sound generation
 let statsDisplay = {
     x: 0, // Will be set in setup based on window width
