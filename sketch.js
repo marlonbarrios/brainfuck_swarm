@@ -1961,7 +1961,7 @@ class BFFEcosystem {
 let ecosystem;
 let isPaused = false;
 let time = 0;
-let soundEnabled = true; // Sound toggle state
+let soundEnabled = false; // Sound toggle state (off by default)
 let audioContext; // For sound generation
 let statsDisplay = {
     x: 0, // Will be set in setup based on window width
