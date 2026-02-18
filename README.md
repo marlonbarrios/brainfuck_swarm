@@ -6,6 +6,17 @@ A generative art installation that visualizes the emergence of self-replicating 
 
 🌐 **[Live Demo](https://marlonbarrios.github.io/brainfuck_swarm/)**
 
+## Screenshots
+
+![BrainFuck Swarm Visualization](screenshots/main.png)
+*The evolving ecosystem showing organisms with code-contingent behaviors*
+
+![Most Complex Organisms](screenshots/complex.png)
+*The two most complex organisms highlighted with pulsing rings*
+
+![Statistics Panel](screenshots/stats.png)
+*Real-time statistics tracking interactions, operations, and evolution*
+
 ## What is Brainfuck?
 
 **Brainfuck** is an esoteric programming language created by Urban Müller in 1993. Despite its minimal design, it is Turing-complete, meaning it can theoretically compute anything that any other programming language can compute.
