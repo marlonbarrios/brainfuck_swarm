@@ -2012,8 +2012,10 @@ function draw() {
     // Draw ecosystem
     ecosystem.draw();
     
-    // Draw stats overlay
-    drawStats();
+    // Draw stats overlay (only if visible)
+    if (statsVisible) {
+        drawStats();
+    }
     
     // Draw most complex code as title
     drawMostComplexCode();
@@ -2194,6 +2196,9 @@ function keyPressed() {
     }
     if (key === 's' || key === 'S') {
         soundEnabled = !soundEnabled;
+    }
+    if (key === 'h' || key === 'H') {
+        statsVisible = !statsVisible;
     }
     if (keyCode === UP_ARROW) {
         ecosystem.speed = min(ecosystem.speed * 2, 50);
