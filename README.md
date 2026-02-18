@@ -79,6 +79,9 @@ BrainFuck Swarm is a real-time visualization of an artificial life system where 
 
 ### 1. Code-Contingent Behavior & Phenotype
 
+![Code-Driven Behavior](image.png)
+*Each organism's behavior directly reflects its Brainfuck code execution*
+
 **Behavioral Properties (Directly from Code Execution)**
 
 Each organism's behavior is directly driven by its Brainfuck code execution results:
