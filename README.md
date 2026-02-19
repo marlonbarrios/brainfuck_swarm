@@ -2,9 +2,9 @@
 
 An interactive evolutionary ecosystem where Brainfuck code programs evolve, reproduce, form symbiotic relationships, and create emergent behaviors through self-organization and active inference.
 
-![BrainFuck Swarm Evolution - Ecosystem View](images.png)
+![BrainFuck Swarm Evolution - Ecosystem View](images1.png)
 
-![BrainFuck Swarm Evolution - Detailed View](image2.png)
+![BrainFuck Swarm Evolution - Detailed View](images2.png)
 
 ## What is Brainfuck?
 
