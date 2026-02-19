@@ -2,6 +2,10 @@
 
 An interactive evolutionary ecosystem where Brainfuck code programs evolve, reproduce, form symbiotic relationships, and create emergent behaviors through self-organization and active inference.
 
+![BrainFuck Swarm Evolution - Ecosystem View](Screenshot%202026-02-19%20at%205.32.22%20PM.png)
+
+![BrainFuck Swarm Evolution - Detailed View](Screenshot%202026-02-19%20at%205.35.43%20PM.png)
+
 ## What is Brainfuck?
 
 **Brainfuck** is an esoteric programming language created by Urban Müller in 1993. It is designed to be extremely minimal, with only 8 commands, yet it is Turing-complete (capable of computing anything that any other programming language can compute).
@@ -330,13 +334,7 @@ Experience the evolving ecosystem in your browser. Watch as simple code fragment
 
 ## Screenshots
 
-![BrainFuck Swarm Evolution - Ecosystem View](Screenshot%202026-02-19%20at%205.32.22%20PM.png)
-
-*The evolving ecosystem showing organisms, symbiont pairs with organic membranes, and superorganisms forming hierarchical structures.*
-
-![BrainFuck Swarm Evolution - Detailed View](Screenshot%202026-02-19%20at%205.35.43%20PM.png)
-
-*Close-up view of organisms with pseudopod membranes, phagocytosis in action, and the stats panel showing Free Energy Principle indicators.*
+*The screenshots above show the evolving ecosystem with organisms, symbiont pairs with organic membranes, superorganisms forming hierarchical structures, phagocytosis in action, and the stats panel displaying Free Energy Principle indicators.*
 
 ---
 
