@@ -2,6 +2,40 @@
 
 An interactive evolutionary ecosystem where Brainfuck code programs evolve, reproduce, form symbiotic relationships, and create emergent behaviors through self-organization and active inference.
 
+## What is Brainfuck?
+
+**Brainfuck** is an esoteric programming language created by Urban Müller in 1993. It is designed to be extremely minimal, with only 8 commands, yet it is Turing-complete (capable of computing anything that any other programming language can compute).
+
+### The 8 Commands
+
+- `>` - Move pointer right (increment data pointer)
+- `<` - Move pointer left (decrement data pointer)
+- `+` - Increment byte at pointer
+- `-` - Decrement byte at pointer
+- `.` - Output byte at pointer
+- `,` - Input byte and store at pointer
+- `[` - Jump forward if byte at pointer is zero
+- `]` - Jump backward if byte at pointer is non-zero
+
+### How It Works
+
+Brainfuck operates on an array of memory cells (typically 30,000 cells), each initialized to zero. A data pointer starts at the first cell. The program executes commands sequentially, manipulating the memory cells and pointer position. Loops (`[` and `]`) allow for conditional repetition.
+
+**Example**: `+++[>+++<-]` increments the first cell to 3, then loops 3 times, each time incrementing the second cell by 3 and decrementing the first cell by 1, resulting in the second cell containing 9.
+
+### Why Brainfuck in This Project?
+
+In BrainFuck Swarm, each organism's "genotype" is a Brainfuck program. The execution of this code determines:
+- The organism's behavior and movement patterns
+- Its visual appearance (phenotype)
+- Its interactions with other organisms
+- Its sound generation
+- Its memory patterns
+
+This creates a direct mapping between code and life: simple programs create simple organisms, while complex programs create complex, sophisticated behaviors.
+
+**Learn more**: [Brainfuck on Wikipedia](https://en.wikipedia.org/wiki/Brainfuck)
+
 ## Overview
 
 BrainFuck Swarm is a living simulation where simple code fragments evolve into complex organisms. Each organism is a Brainfuck program that executes its code to determine its behavior, appearance, and interactions. The system implements principles from evolutionary biology, autopoiesis, the Free Energy Principle, and active inference to create a self-organizing, evolving ecosystem.
@@ -290,16 +324,19 @@ BrainFuck Swarm explores:
 
 ## Live Demo
 
-[Add your live app link here]
+🌐 **Try it live**: [https://marlonbarrios.github.io/brainfuck_swarm/](https://marlonbarrios.github.io/brainfuck_swarm/)
+
+Experience the evolving ecosystem in your browser. Watch as simple code fragments evolve into complex organisms, form symbiotic relationships, and create emergent behaviors.
 
 ## Screenshots
 
-[Add screenshots showing:
-- Organisms with membranes
-- Symbiont pairs
-- Superorganisms
-- Phagocytosis
-- Stats panel]
+![BrainFuck Swarm Evolution - Ecosystem View](Screenshot%202026-02-19%20at%205.32.22%20PM.png)
+
+*The evolving ecosystem showing organisms, symbiont pairs with organic membranes, and superorganisms forming hierarchical structures.*
+
+![BrainFuck Swarm Evolution - Detailed View](Screenshot%202026-02-19%20at%205.35.43%20PM.png)
+
+*Close-up view of organisms with pseudopod membranes, phagocytosis in action, and the stats panel showing Free Energy Principle indicators.*
 
 ---
 
